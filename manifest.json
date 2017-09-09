@@ -1,0 +1,24 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "name": "Discord Canary",
+  "description": "Discord - Chat for Gamers - Alpha Branch",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "app": {
+    "urls": [
+      "https://canary.discordapp.com/channels/"
+    ],
+    "launch": {
+      "web_url": "https://canary.discordapp.com/channels/@me/"
+    }
+  },
+  "permissions": [
+    "unlimitedStorage", "notifications"
+  ]
+}
